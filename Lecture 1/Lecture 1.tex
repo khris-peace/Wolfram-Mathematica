@@ -1,0 +1,72 @@
+\documentclass[a4paper,12pt]{article}
+
+%\usepackage{cmap}					% поиск в PDF
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc} 	% кодировка исходного текста
+\usepackage{mathtools}			
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+\author{Lecture 1}
+\title{Wolfram Mathematica}
+\date{10/28/2022}
+
+
+\begin{document} % Конец преамбулы, начало текста.
+
+Functions for construct graphs:
+
+\textbf Plot [function,{variation,a,b}], where [a,b] - is interval of variation
+
+!!!All functions is written with capital letter
+
+Ctr+6 -- write to power of variation; $x^2$
+
+\textbf ContourPlot[function,{variation, a,b}] -- used for implisit functions
+
+ESC a ESC = $\alpha$
+
+Abs ...
+
+Solve[equation] -- Solve equations
+
+Solve[$x^2 == 1$]
+
+Solve[x+y == 1, x] -- solve the equation for x
+
+!!! space = multiplication
+
+Solve[${a+3 b == 7, 5 a - 88 b x == p^2}, (a,b)$]
+
+FullSimplify[expression] -- Simplifying complex expressions
+
+Ctr + '/' -- write fractions; $x/y$
+
+D[function, variation] -- Differentiation
+
+D[$\exp{-x**2}$, {x,n}]
+
+Log@a -- gives the natural logariphm of a (lna)
+
+Log[b,a] -- gives the logarithm to base b $\log_{a}b$
+
+DSolve -- to solve differantial equation
+
+Heads of basic expressions:
+
+1) Symbols
+
+2) String
+
+3) Integer -- целые числа
+
+4) Real -- десятичные дроби
+
+Some commands (Esc + "command" + Esc):
+
+integration: "dintt"
+
+$\infty$: "inf"
+
+partial derivative: "pd"
+
+\end{document}
